@@ -17,7 +17,7 @@
  * FACEBOOK BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
  * AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- * @providesModule LinkingExample
+ * @providesModule LinkingIOSExample
  */
 'use strict';
 
@@ -59,7 +59,7 @@ class OpenURLButton extends React.Component {
   }
 }
 
-class IntentAndroidExample extends React.Component {
+class IntentIOSExample extends React.Component {
   static title = 'Linking';
   static description = 'Shows how to use Linking to open URLs.';
 
@@ -70,7 +70,7 @@ class IntentAndroidExample extends React.Component {
         <OpenURLButton url={'http://www.facebook.com'} />
         <OpenURLButton url={'http://facebook.com'} />
         <OpenURLButton url={'fb://notifications'} />
-        <OpenURLButton url={'geo:37.484847,-122.148386'} />
+        <OpenURLButton url={'http://maps.apple.com/?ll=37.484847,-122.148386'} />
         <OpenURLButton url={'tel:9876543210'} />
       </UIExplorerBlock>
     );
@@ -94,4 +94,4 @@ var styles = StyleSheet.create({
   },
 });
 
-module.exports = IntentAndroidExample;
+module.exports = IntentIOSExample;

@@ -177,8 +177,8 @@ const APIExamples: Array<UIExplorerExample> = [
     module: require('./LayoutEventsExample'),
   },
   {
-    key: 'LinkingExample',
-    module: require('./LinkingExample'),
+    key: 'LinkingAndroidExample',
+    module: require('./LinkingAndroidExample'),
   },
   {
     key: 'LayoutAnimationExample',

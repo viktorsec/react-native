@@ -279,8 +279,8 @@ const APIExamples: Array<UIExplorerExample> = [
     supportsTVOS: true,
   },
   {
-    key: 'LinkingExample',
-    module: require('./LinkingExample'),
+    key: 'LinkingIOSExample',
+    module: require('./LinkingIOSExample'),
     supportsTVOS: true,
   },
   {
